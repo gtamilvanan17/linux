@@ -161,3 +161,9 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 helm version
 ```
+
+## Install Node JS LTS (20) :
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
+sudo apt-get install -y nodejs
+```
